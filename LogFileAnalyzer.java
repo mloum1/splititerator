@@ -12,7 +12,7 @@ public class LogFileAnalyzer {
     }
 
     public static String extractIPAddress(String logLine) {
-        return logLine.split("")[0]; // IP adress the data of each log line // keep hacking
+        return logLine.split(" ")[0]; // IP adress the data of each log line // keep hacking
     }
 
     public static void main(String[] args) throws IOException {
